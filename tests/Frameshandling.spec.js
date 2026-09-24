@@ -7,7 +7,7 @@
 // await page.waitForTimeout(3000);
 
 // })
-
+l
 
 
 import test from'@playwright/test';
@@ -17,5 +17,5 @@ test('Frames handling', async ({ page }) => {
  const frame =  page.frameLocator('[name="globalSqa]');
  await frame.getByText("//h3[text()='JMeter Training']").click
 await page.waitForTimeout(3000);
-
+console.log("test completed successfully");
 })
